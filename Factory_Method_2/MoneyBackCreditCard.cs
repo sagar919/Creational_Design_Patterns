@@ -10,12 +10,12 @@ namespace Factory_Method_2
         private int _creditLimit;
         private int _annualCharge;
 
-        //public MoneyBackCreditCard(int creditLimit, int annualCharge)
-        //{
-        //    _cardType = "MasterCard";
-        //    _creditLimit = creditLimit;
-        //    _annualCharge = annualCharge;
-        //}
+        public MoneyBackCreditCard(int creditLimit, int annualCharge)
+        {
+            _cardType = "MasterCard";
+            _creditLimit = creditLimit;
+            _annualCharge = annualCharge;
+        }
 
         public override string CardType
         {
